@@ -1,0 +1,177 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+	
+    <model name="box">
+      <static>true</static>
+
+      <link name='Wall_4'>
+        <pose>-1.93114 2.00809 0 0 -0 3.14159</pose>
+        <visual name='Wall_4_Visual_0'>
+          <pose>-1.14398 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>6.53085 0.2 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/White</name>
+            </script>
+          </material>
+        </visual>
+        <collision name='Wall_4_Collision_0'>
+          <geometry>
+            <box>
+              <size>6.53085 0.2 2.5</size>
+            </box>
+          </geometry>
+          <pose>-1.14398 0 1.25 0 -0 0</pose>
+        </collision>
+        <visual name='Wall_4_Visual_1'>
+          <pose>3.76542 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>1.28795 0.2 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/White</name>
+            </script>
+          </material>
+        </visual>
+        <collision name='Wall_4_Collision_1'>
+          <geometry>
+            <box>
+              <size>1.28795 0.2 2.5</size>
+            </box>
+          </geometry>
+          <pose>3.76542 0 1.25 0 -0 0</pose>
+        </collision>
+        <visual name='Wall_4_Visual_2'>
+          <pose>2.62145 0 2.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>1 0.2 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/White</name>
+            </script>
+          </material>
+        </visual>
+        <collision name='Wall_4_Collision_2'>
+          <geometry>
+            <box>
+              <size>1 0.2 0.5</size>
+            </box>
+          </geometry>
+          <pose>2.62145 0 2.25 0 -0 0</pose>
+        </collision>
+      </link>
+
+      <model name="tag_1">
+        <static>true</static>
+        <pose>-0.5 1.89 1.5 1.57079632679 -0.0 0.0</pose>
+        <link name="Wall_4">
+          <visual name="visual">
+            <material>
+              <script>
+                <uri>model://tag36_11_00000/materials/scripts</uri>
+                <uri>model://tag36_11_00000/materials/textures</uri>
+                <name>tag36_11_00000/Image</name>
+              </script>
+            </material>
+            <geometry>
+              <mesh>
+                <uri>model://tag36_11_00000/meshes/cube.dae</uri>
+                <!-- <scale>0.12 0.12 0.005</scale> -->
+                <scale>0.5 0.5 0.005</scale>
+              </mesh>
+            </geometry>
+          </visual>
+        </link>
+      </model>
+
+      <model name="tag_2">
+        <static>true</static>
+        <pose>-0.5 1.89 0.5 1.57079632679 -0.0 0.0</pose>
+        <link name="Wall_4">
+          <visual name="visual">
+            <material>
+              <script>
+                <uri>model://tag36_11_00000/materials/scripts</uri>
+                <uri>model://tag36_11_00000/materials/textures</uri>
+                <name>tag36_11_00000/Image</name>
+              </script>
+            </material>
+            <geometry>
+              <mesh>
+                <uri>model://tag36_11_00000/meshes/cube.dae</uri>
+                <scale>0.5 0.5 0.005</scale>
+              </mesh>
+            </geometry>
+          </visual>
+        </link>
+      </model>
+    
+
+      <model name="tag_3">
+        <static>true</static>
+        <pose>0.5 1.89 1.5 1.57079632679 -0.0 0.0</pose>
+        <link name="Wall_4">
+          <visual name="visual">
+            <material>
+              <script>
+                <uri>model://tag36_11_00000/materials/scripts</uri>
+                <uri>model://tag36_11_00000/materials/textures</uri>
+                <name>tag36_11_00000/Image</name>
+              </script>
+            </material>
+            <geometry>
+              <mesh>
+                <uri>model://tag36_11_00000/meshes/cube.dae</uri>
+                <scale>0.5 0.5 0.005</scale>
+              </mesh>
+            </geometry>
+          </visual>
+        </link>
+      </model>
+
+
+      <model name="tag_4">
+        <static>true</static>
+        <pose>0.5 1.89 0.5 1.57079632679 -0.0 0.0</pose>
+        <link name="Wall_4">
+          <visual name="visual">
+            <material>
+              <script>
+                <uri>model://tag36_11_00000/materials/scripts</uri>
+                <uri>model://tag36_11_00000/materials/textures</uri>
+                <name>tag36_11_00000/Image</name>
+              </script>
+            </material>
+            <geometry>
+              <mesh>
+                <uri>model://tag36_11_00000/meshes/cube.dae</uri>
+                <scale>0.5 0.5 0.005</scale>
+              </mesh>
+            </geometry>
+          </visual>
+        </link>
+      </model>
+
+    </model>
+  </world>
+</sdf>

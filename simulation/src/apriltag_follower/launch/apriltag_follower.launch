@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="apriltag_follower" type="ApriltagFollower.py"  name="apriltag_follower_node"  output="screen">
+      </node>
+</launch>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bittle_gazebo</name>
+  <version>1.0.0</version>
+  <description>The bittle_gazebo package</description>
+
+  <maintainer email="abdelrahmanaboneda@gmail.com">aboneda</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_plugins</depend>
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/models" /> 
+</export>
+
+</package>

@@ -1,0 +1,12 @@
+# 1- simulation Environment:
+roslaunch bittle_gazebo simulation.launch
+
+# 2- Spawn Bittle Model
+roslaunch bittle_gazebo spawn_robot.launch
+
+# 3- Estimate the camera distance to the apriltag
+roslaunch apriltag_pose_estimation apriltag_detector.launch
+
+# 4- Follow apriltag 
+roslaunch apriltag_follower apriltag_follower.launch
+

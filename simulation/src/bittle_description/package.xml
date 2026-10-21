@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bittle_description</name>
+  <version>1.0.0</version>
+  <description>The bittle_description package</description>
+
+  <maintainer email="lbittlel@gmail.com">lbittlel</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
